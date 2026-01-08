@@ -1,0 +1,12 @@
+streamlit
+requests
+python-dotenv
+langchain
+langchain-community
+langchain-classic
+faiss-cpu
+sentence-transformers
+pypdf
+langchain-openai
+langchain-core
+fpdf

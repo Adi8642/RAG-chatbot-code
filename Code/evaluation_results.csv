@@ -1,0 +1,44 @@
+ID,Data Type,Question,Expected,Actual Response,Result,Time
+1,Positive,Who is the project lead?,ANSWER,The project lead is Dr. Evelyn Reed.,PASS,2.50s
+2,Positive,What is the project start date?,ANSWER,"The project start date is **August 1, 2025**, as stated in the provided context under the ""Project Timeline"" section.",PASS,3.22s
+3,Positive,What is the go-live target date?,ANSWER,"The go-live target date for Project Nova is **December 1, 2025**.",PASS,1.84s
+4,Positive,What is the backend codename?,ANSWER,"The backend codename is **Orion**, as mentioned in the context under ""Technology Stack.""",PASS,2.66s
+5,Positive,Who is the DevOps engineer?,ANSWER,"Based on the provided context, the DevOps engineer is **Marcus Thorne**.",PASS,2.15s
+6,Positive,Who is the Chief Designer?,ANSWER,The Chief Designer is Sarah Jenkins. (Note: The context indicates she is new to the role.),PASS,2.74s
+7,Positive,Who is the lead for Orion?,ANSWER,"Based on the provided context, the lead for Orion is David Chen.",PASS,2.74s
+8,Positive,What database is used?,ANSWER,"Based on the provided context, the database used is **PostgreSQL**.",PASS,2.50s
+9,Positive,What frontend framework is used?,ANSWER,"The frontend framework used is React, as part of the Frontend (Lyra) technology stack.",PASS,2.76s
+10,Positive,What cloud provider is used?,ANSWER,The cloud provider used is AWS (Managed by DevOps Team).,PASS,2.90s
+11,Positive,What is the total budget?,ANSWER,"The total approved budget for Project Nova is **$1.2 Million**.  
+
+Breakdown:  
+- Development: $800,000  
+- Infrastructure (Year 1): $150,000  
+- Design & Marketing: $150,000  
+- Contingency: $100,000",PASS,3.58s
+12,Positive,How much is allocated for development?,ANSWER,"The allocated budget for development is **$800,000**.",PASS,2.50s
+13,Positive,What is the mitigation for scaling risks?,ANSWER,"Based on the provided context, the mitigation for scaling risks is: **Auto-scaling groups implemented by Marcus Thorne**. 
+
+This addresses the identified risk of ""Scalability during peak traffic.""",PASS,3.73s
+14,Positive,What handles API rate limits?,ANSWER,"Based on the provided context, the mitigation for third-party API rate limits is handled by a **caching layer in Redis**. 
+
+Answer:  
+A caching layer in Redis handles API rate limits.",PASS,3.62s
+15,Positive,What encryption standard is required?,ANSWER,"Based on the provided context, the required encryption standard is **AES-256** for all data at rest. 
+
+The relevant section states:  
+*""Encryption: All data at rest must be encrypted using AES-256.""*",PASS,5.29s
+16,Positive,How long must audit logs be retained?,ANSWER,"Audit logs must be retained for **7 years** to meet financial regulations, as stated in the provided context.",PASS,2.36s
+17,Positive,Who is the security auditing firm?,ANSWER,The security auditing firm is 'CyberGuard Solutions'.,PASS,2.63s
+18,Positive,When is the daily standup?,ANSWER,The daily standup is at 9:30 AM EST (Zoom Link #8842).,PASS,2.50s
+19,Positive,Who is the emergency contact?,ANSWER,"Based on the provided context, the emergency contact is **Marcus Thorne (DevOps) - Ext 4492**.",PASS,3.73s
+20,Positive,What is the CEO's name?,ANSWER,"The CEO's name is **Eleanor Vance**, as stated in the ""Approved by"" section of the Project Nova Internal Brief.",PASS,2.04s
+21,Positive,Who is the HR manager?,ANSWER,"Based on the provided context, the HR Manager is **Sarah Miller**.",PASS,2.28s
+22,Negative,Is the project ahead of schedule?,ABSTAIN,"Based on the provided context, there is no information indicating that Project Nova is ahead of schedule. The document only outlines the planned timeline and key milestones without any updates on progress or deviations from the schedule. 
+
+Therefore, the answer is: ""I do not have information on this topic based on the provided document.""",PASS,3.91s
+23,Negative,What is the price of the stock?,ABSTAIN,"The provided context does not contain any information about stock prices. 
+
+Answer: I do not have information on this topic based on the provided document.",PASS,3.80s
+24,Negative,What is the color of the new logo?,ABSTAIN,I do not have information on this topic based on the provided document.,PASS,2.76s
+25,Negative,What is the lunch menu for Friday?,ABSTAIN,I do not have information on this topic based on the provided document.,PASS,2.24s
